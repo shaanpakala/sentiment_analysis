@@ -23,5 +23,3 @@ This was done by first webscraping CNN articles from their website (~850 article
 This second round of training was done so that I could attempt to detect any political bias in CNN's articles. I analyzed the distributions of predicted sentiments of CNN's articles on republicans and democrats separately. The results are shown in these two pie charts.
 
 <img width="1035" alt="Screen Shot 2023-08-20 at 10 12 17 PM" src="https://github.com/shaanpakala/sentiment_analysis/assets/68576257/0e661c57-4dfc-4736-b56b-eb6fdb190682">
-
-
