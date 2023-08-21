@@ -1,4 +1,4 @@
-# sentiment_analysis
+# Sentiment Analysis
 
 *note: folders "saved_models" and "train_vectors" are not included since they are too big; however, all the files that are not included can be created by running the notebooks.
 
@@ -7,7 +7,7 @@ Random Forest Sentiment Analysis Model.
 Input is a BOW representing the sentence(s). Normalized so that the sum of the BOW for the entire input is 1.
 Output is a number -1 (negative sentiment), 0 (neutral sentiment), or 1 (positive sentiment).
 
-Training data was acquired by collecting various sentences and their corresponding sentiments. Two datasets acquired by webscraping reviews from yelp.com and yellopages.com with their corresponding ratings. These ratings were converted so that 1-2/5 star is negative sentiment, 3/5 is neutral, and 4-5/5 is positive. Two more datasets were collected from kaggle. These two kaggle datasets are from twitter and reddit, both have the correspoding sentiment (negative, neutral, or positive) attached to the sentence(s). 
+Training data was acquired by collecting various sentences and their corresponding sentiments. Two datasets acquired by webscraping reviews from yelp.com and yellopages.com with their corresponding ratings. From both websites, reviews were acquired from various cities across the United States and from various business types. These ratings were converted so that 1-2/5 star is negative sentiment, 3/5 is neutral, and 4-5/5 is positive. Two more datasets were collected from kaggle. These two kaggle datasets are from twitter and reddit, both have the correspoding sentiment (negative, neutral, or positive) attached to the sentence(s). 
 
 Vectorizing the training data into BOWs first entailed creating a word dictionary of all the words in all of the data. This dictionary was later refined so that words that appeared very rarely were removed (e.g. a proper noun that is only used in only one out of 50,000+ texts). This was done so that the model would not worry about irrelevant words which might affect the accuracy. It was also done to shorten the dictionary size for efficiency. Then using this dictionary, a BOW was created for each text so that each index of the vector corresponds to a specific word in the dicitonary. The value is the number of times that word shows up in the sentence divided by the total number of words in that sentence. This was done to ensure that short sentences and long sentences would not be drastically different simply because of the length of the sentence.
 
