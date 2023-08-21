@@ -22,6 +22,6 @@ The following confusion matrix represents the percent of the true label in each 
 A second round of training was done on CNN political articles in order to fine tune this model in the field of political articles. 
 This was done by first webscraping CNN articles from their website (~850 articles total). Then I manually filled in the sentiment of ~100 articles I webscraped. I fine tuned trained the random forest classifier model from before on this new train set of ~100 articles, expanding the number of estimators to 125. 
 
-This second round of training was done so that I could attempt to detect any political bias in CNN's articles. I analyzed the distributions of predicted sentiments of CNN's articles on republicans and democrats separately. The results are shown in these two pie charts.
+This second round of training was done so that I could attempt to detect any political bias in CNN's articles. I analyzed the distributions of predicted sentiments of CNN's articles on republicans and democrats separately (around 350-400 articles each). The results are shown in these two pie charts.
 
 <img width="1026" alt="Screen Shot 2023-08-20 at 10 25 09 PM" src="https://github.com/shaanpakala/sentiment_analysis/assets/68576257/0aeb9b82-ebeb-4d50-9faf-f0aa2df1716e">
