@@ -14,10 +14,13 @@ Vectorizing the training data into BOWs first entailed creating a word dictionar
 First round of training was done on the training data that was mentioned earlier, using a random forest classifier, with number of estimators set to 100. The training set was modified so that the data of each category had the same size (neutral, negative, and positive sentiment texts). This was done so that the classifier would not favor any specific category in training. 
 This model achieved an overall accuracy of ~94% on test data.
 
+<img width="557" alt="Screen Shot 2023-08-20 at 10 14 03 PM" src="https://github.com/shaanpakala/sentiment_analysis/assets/68576257/9c8da9f6-d418-43d0-822f-facce48571d3">
+
+
 A second round of training was done on CNN political articles in order to fine tune this model in the field of political articles. 
 This was done by first webscraping CNN articles from their website (~850 articles total). Then I manually filled in the sentiment of ~100 articles I webscraped. I fine tuned trained the random forest classifier model from before on this new train set of ~100 articles, expanding the number of estimators to 125. 
 
-This second round of training was done so that I could attempt to detect any political bias in CNN's articles. I analyzed the distributions of predicted sentiments of CNN's articles on republicans and democrats separately, and here are the results.
+This second round of training was done so that I could attempt to detect any political bias in CNN's articles. I analyzed the distributions of predicted sentiments of CNN's articles on republicans and democrats separately. The results are shown in these two pie charts.
 
 <img width="1035" alt="Screen Shot 2023-08-20 at 10 12 17 PM" src="https://github.com/shaanpakala/sentiment_analysis/assets/68576257/0e661c57-4dfc-4736-b56b-eb6fdb190682">
 
