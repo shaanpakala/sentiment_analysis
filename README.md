@@ -17,7 +17,7 @@ The following confusion matrix represents the percent of the true label in each 
 
 <img width="457" alt="Screen Shot 2023-08-20 at 10 24 53 PM" src="https://github.com/shaanpakala/sentiment_analysis/assets/68576257/7d93b45c-ff87-46f0-8481-5e7f85292360">
 
-# political sentiment analysis
+# Political Sentiment Analysis
 
 A second round of training was done on CNN political articles in order to fine tune this model in the field of political articles. 
 This was done by first webscraping CNN articles from their website (~850 articles total). Then I manually filled in the sentiment of ~100 articles I webscraped. I fine tuned trained the random forest classifier model from before on this new train set of ~100 articles, expanding the number of estimators to 125. 
