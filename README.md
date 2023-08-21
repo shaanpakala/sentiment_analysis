@@ -12,10 +12,9 @@ Training data was acquired by collecting various sentences and their correspondi
 Vectorizing the training data into BOWs first entailed creating a word dictionary of all the words in all of the data. This dictionary was later refined so that words that appeared very rarely were removed (e.g. a proper noun that is only used in only one out of 50,000+ texts). This was done so that the model would not worry about irrelevant words which might affect the accuracy. It was also done to shorten the dictionary size for efficiency. Then using this dictionary, a BOW was created for each text so that each index of the vector corresponds to a specific word in the dicitonary. The value is the number of times that word shows up in the sentence divided by the total number of words in that sentence. This was done to ensure that short sentences and long sentences would not be drastically different simply because of the length of the sentence.
 
 First round of training was done on the training data that was mentioned earlier, using a random forest classifier, with number of estimators set to 100. The training set was modified so that the data of each category had the same size (neutral, negative, and positive sentiment texts). This was done so that the classifier would not favor any specific category in training. 
-This model achieved an overall accuracy of ~94% on test data.
+This model achieved an overall accuracy of ~94% on test data. The following confusion matrix represents the percent of the true label in each predicted class (the sum of each row is 100%).
 
-<img width="557" alt="Screen Shot 2023-08-20 at 10 14 03 PM" src="https://github.com/shaanpakala/sentiment_analysis/assets/68576257/9c8da9f6-d418-43d0-822f-facce48571d3">
-
+<img width="446" alt="Screen Shot 2023-08-20 at 10 16 14 PM" src="https://github.com/shaanpakala/sentiment_analysis/assets/68576257/6041dad9-fedd-43a3-9178-30fe064af372">
 
 A second round of training was done on CNN political articles in order to fine tune this model in the field of political articles. 
 This was done by first webscraping CNN articles from their website (~850 articles total). Then I manually filled in the sentiment of ~100 articles I webscraped. I fine tuned trained the random forest classifier model from before on this new train set of ~100 articles, expanding the number of estimators to 125. 
