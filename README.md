@@ -17,5 +17,6 @@ First round of training was done on the training data that was mentioned earlier
 This model achieved an overall accuracy of ~98% on test data. 
 The following confusion matrix represents the percent of the true label in each predicted class (the sum of each row is 100%).
 
-<img width="466" alt="Screen Shot 2023-08-27 at 5 23 07 PM" src="https://github.com/shaanpakala/sentiment_analysis/assets/68576257/f03cfb51-0b31-47c3-8cc2-a3de0456cbc9">
+<img width="560" alt="Screen Shot 2023-08-27 at 9 53 57 PM" src="https://github.com/shaanpakala/sentiment_analysis/assets/68576257/02c2501f-8651-4498-a13f-9b6117d00d45">
+
 
