@@ -1,4 +1,4 @@
-# Sentiment Analysis of Yelp Reviews
+### Sentiment Analysis of Yelp Reviews
 
 *note: folders "saved_models" and "train_vectors" (for my saved dataset of text already converted into BOW vectors) are not included since they are too big; however, all the files that are not included can be created by running the notebooks.
 
