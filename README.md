@@ -3,7 +3,7 @@
 *note: folders "saved_models" and "train_vectors" are not included since they are too big; however, all the files that are not included can be created by running the notebooks.
 
 
-Random Forest Sentiment Analysis Model.
+Random Forest Classification Model for classification of sentiment.
 Input is a BOW representing the sentence(s). Normalized so that the sum of the BOW for the entire input is 1.
 Output is a number -1 (negative sentiment), 0 (neutral sentiment), or 1 (positive sentiment).
 
