@@ -2,7 +2,7 @@
 
 *note: folders "saved_models" and "train_vectors" (for my saved dataset of text already converted into BOW vectors) are not included since they are too big; however, all the files that are not included can be created by running the notebooks.
 
-
+# Model
 Random Forest Classification Model for classification of sentiment. Was intended to be able to use for general sentiment analysis, but since the training data was from online reviews (yelp.com and yellowpages.com) and from twitter and reddit, it seemed to only work well within these categories of data.
 
 Input is a BOW representing the sentence(s). Normalized so that the sum of the BOW for the entire input is 1.
