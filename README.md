@@ -22,7 +22,7 @@ This dictionary was later refined so that words that appeared very rarely were r
 First round of training was done on the training data that was mentioned earlier, using a random forest classifier, with number of estimators set to 100. The training set was modified so that the data of each category had the same size (neutral, negative, and positive sentiment texts). This was done so that the classifier would not favor any specific category in training. The modifications to the train set was done randomly.
 
 # Testing
-This model achieved an overall accuracy of ~98.4% on unseen test data (includes yelp and yellowpages, and the kaggle twitter and reddit data). 
+This model achieved an overall accuracy of ~98.5% on unseen test data (includes yelp and yellowpages, and the kaggle twitter and reddit data). 
 The following confusion matrix represents the percent of the true label in each predicted class (the sum of each row is 100%).
 
 <img width="525" alt="Screen Shot 2023-09-06 at 7 42 38 PM" src="https://github.com/shaanpakala/sentiment_classification/assets/68576257/72b2ab9b-053b-45fe-80ef-15cc68fede7f">
