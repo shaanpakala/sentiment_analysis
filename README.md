@@ -25,6 +25,6 @@ First round of training was done on the training data that was mentioned earlier
 This model achieved an overall accuracy of ~98.4% on unseen test data (includes yelp and yellowpages, and the kaggle twitter and reddit data). 
 The following confusion matrix represents the percent of the true label in each predicted class (the sum of each row is 100%).
 
-<img width="560" alt="Screen Shot 2023-08-27 at 9 53 57 PM" src="https://github.com/shaanpakala/sentiment_analysis/assets/68576257/02c2501f-8651-4498-a13f-9b6117d00d45">
+<img width="525" alt="Screen Shot 2023-09-06 at 7 42 38 PM" src="https://github.com/shaanpakala/sentiment_classification/assets/68576257/72b2ab9b-053b-45fe-80ef-15cc68fede7f">
 
 
