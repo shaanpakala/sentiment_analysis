@@ -1,6 +1,6 @@
 # Sentiment Classification
 
-*note: folders "saved_models" and "train_vectors" (for my saved dataset of text already converted into BOW vectors) are not included since they are too big; however, all the files that are not included can be created by running the notebooks.
+*note: folders "saved_models" and "train_vectors" (for my saved dataset of text already converted into BOW vectors) are not included since they are too big; however, all the files that are not included can be created by running the notebooks.*
 
 # Model
 Random Forest Classification Model for classification of sentiment. Other models were tried such as Gradient Boosting and Extra Trees Classifiers, but Random Forest produced the best results in terms of accuracy.
