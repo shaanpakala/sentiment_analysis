@@ -7,7 +7,7 @@ Random Forest Classification Model for classification of sentiment. Other models
 
 Was intended to be able to use for general sentiment analysis, but since the training data was from online reviews (yelp.com and yellowpages.com) and from twitter and reddit, it seemed to only work well within these categories of data.
 
-Input is a BOW representing the sentence(s). Normalized so that the sum of the BOW for the entire input is 1.
+Input is a BOW representing the frequency of each word in each sentence. Normalized so that the sum of the BOW for the entire input is 1.
 Output is a number -1 (negative sentiment), 0 (neutral sentiment), or 1 (positive sentiment).
 
 # Dataset
